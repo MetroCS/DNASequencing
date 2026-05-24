@@ -1,0 +1,4 @@
+theme: jekyll-theme-slate
+title: DNA Sequencing
+description: Scaffolding for student projects that involve evaluating string comparison algorithms in the context of DNA matching
+repository: MetroCS/DNASequencing
