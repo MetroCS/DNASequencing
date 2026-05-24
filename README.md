@@ -8,8 +8,8 @@ There are really two different comparisons we want to think about:
 - How well an algorithm measures biological/string similarity
 - How efficiently the algorithm runs
 
-### Test Data
-- DNA_sequence_database.txt - A sample database of labeled DNA sequences is provided
+### Test Data Provided
+- DNA_sequence_database.txt - A sample database of labeled DNA sequences
 - DNA_query.txt - A sample query DNA sequence
 
 ## Implementations
