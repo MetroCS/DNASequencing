@@ -26,8 +26,8 @@ import java.util.List;
  */
 public class DNASearchComparison {
     static final SequenceScoringAlgorithm EXAMPLE_ALGORITHM = new ExamplePositionMatchAlgorithm();
-    static final SequenceScoringAlgorithm LEVENSHTEIN = new Levenshtein();
-    static final SequenceScoringAlgorithm LEVENSHTEINDP = new LevenshteinDP();
+    // static final SequenceScoringAlgorithm LEVENSHTEIN = new Levenshtein();     //  Uncomment for naive edit distance algorithm.
+    // static final SequenceScoringAlgorithm LEVENSHTEINDP = new LevenshteinDP(); //  Uncomment for DP edit distance algorithm.
 
     /**
      * Runs the DNA sequence matching comparison.
