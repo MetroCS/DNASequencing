@@ -53,8 +53,8 @@ public class DNASearchComparison {
 
             List<SequenceScoringAlgorithm> algorithms = new ArrayList<>();
             algorithms.add(EXAMPLE_ALGORITHM);
-            algorithms.add(LEVENSHTEINDP);
-            algorithms.add(LEVENSHTEIN);
+            // algorithms.add(LEVENSHTEIN);   // Uncomment for naive edit distance algorithm.
+            // algorithms.add(LEVENSHTEINDP); // Uncomment for DP edit distance algorithm.
 
             AlgorithmComparisonManager manager = new AlgorithmComparisonManager(algorithms);
             List<MatchResult> results = manager.compareAll(query, database);
